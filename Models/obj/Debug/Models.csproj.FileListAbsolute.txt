@@ -1,0 +1,12 @@
+D:\Gundam\GundamShop\Models\bin\Debug\Models.dll.config
+D:\Gundam\GundamShop\Models\bin\Debug\Models.dll
+D:\Gundam\GundamShop\Models\bin\Debug\Models.pdb
+D:\Gundam\GundamShop\Models\bin\Debug\EntityFramework.dll
+D:\Gundam\GundamShop\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gundam\GundamShop\Models\bin\Debug\EntityFramework.xml
+D:\Gundam\GundamShop\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gundam\GundamShop\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Gundam\GundamShop\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Gundam\GundamShop\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Gundam\GundamShop\Models\obj\Debug\Models.dll
+D:\Gundam\GundamShop\Models\obj\Debug\Models.pdb

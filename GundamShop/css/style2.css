@@ -1,0 +1,119 @@
+html {
+	background-color: linear-gradient(purple, black);
+}
+
+body {
+	
+    position:absolute;
+	width: 45rem;
+	min-height: 10rem;
+	-webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	border-radius: 1rem;
+	overflow: hidden;
+	margin-left: 550px;
+	
+	
+}
+header {
+	border-radius: 1rem 1rem 0;
+	width: 100%;
+	flex-basis: 12rem;
+	background: rgba(11,156,49,1);
+	text-align: center;
+	position: relative;
+
+}
+.logo{
+	    position: relative;
+		top: 6rem;
+		background: white;
+	    border-radius: 50%
+	}
+
+.order {
+	padding: 2rem;
+	background:white;
+	border-radius: 0 1rem 1rem;
+	padding-top: 4rem;
+}
+button {
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 0.5re;
+	font-size: 1rem;
+	font-weight: 500;
+}
+#checkout {
+	width: 100%;
+	background: #228B22;
+	color: white;
+}
+.gtdonhang{
+	padding: 1rem 1.5rem;
+	margin: 2rem;
+	background: #f4f4f6;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 2rem;
+	
+}
+.tien{
+	float: right;
+}
+#them{
+	margin-top: 1.5rem;
+	border: 1px solid gray;
+	width: 18rem;
+	background: white;
+}
+.strong{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+	font-weight: 500;
+}
+.order-item{
+	display: flex;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+
+}
+.soluong{
+	flex-basis: 10rem;
+}
+.tensp{
+	flex-basis: 20rem;
+}
+.gia{
+	margin-left: auto;
+}
+#itembt{
+	 padding: 0.5rem;
+	 width: 20px;
+	 height: 20px;
+	 line-height: 10px;
+	 font-size: 1.5rem;
+ }
+ #itembtd{
+	 padding: 0.5rem;
+	 width: 20px;
+	 height: 20px;
+	 line-height: 10px;
+	 font-size: 1rem;
+ }
+ #sl{
+	 width: 30px;
+	 flex-basis: 10rem;
+	 position: relative;
+	 top: -5px;
+	 border: none;
+ }
+
+	
+
+	

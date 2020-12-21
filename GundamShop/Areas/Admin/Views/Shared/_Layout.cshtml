@@ -1,0 +1,119 @@
+﻿<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/cf03b6a817.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/giaodien.css">
+    <link rel="stylesheet" type="text/css" href="~/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="~/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="~/hinh/logo.png" style="width: 100px; height: 50px; margin-top: -15px;"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Trang Chủ</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản Phẩm <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Gundam</a></li>
+                            <li><a href="#">Model kits</a></li>
+                            <li><a href="#">Figures</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Bộ Sưu Tập</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Thông Tin <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Liên Hệ</a></li>
+                            <li><a href="#">Tin Tức</a></li>
+                            <li><a href="#">Công Cụ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span> Tìm Kiếm</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ Hàng</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng Nhập</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+</body>
+<foot>
+    <div class="main-content" style="background-color: black; color: white;">
+        <div class="left box">
+            <h2>Thông Tin</h2>
+            <div class="content">
+                <p> Chuyên bán mô hình Gundam giá rẻ nhất, chính hãng Bandai. Giao hàng toàn quốc. Tư vấn, nhiệt tình, uy tín được đặt lên hàng đầu.</p>
+                <div class="social">
+                    <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="https://instagram.com/coding.np"><span class="fab fa-instagram"></span></a>
+                    <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <h2>Địa Chỉ</h2>
+            <div class="content">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text">223 Trịnh Đình Trọng, Phú Trung, Q.Tân Phú</span>
+                </div>
+                <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">0933 801 154</span>
+                </div>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">tinblabla169@gmail.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="right box">
+            <h2>Liên Hệ</h2>
+            <div class="content">
+                <form action="#">
+                    <div class="email">
+                        <div class="text">Email *</div>
+                        <input type="email" required>
+                    </div>
+                    <div class="msg">
+                        <div class="text">Tin Nhắn*</div>
+                        <textarea id=".msgForm" rows="2" cols="25" required></textarea>
+                        <br />
+                        <div class="btn">
+                            <button type="submit">Gửi</button>
+                        </div>
+                        <div class="bottom">
+                            <center>
+                                <span class="credit">Created By KhoaCan | </span>
+                                <span class="far fa-copyright"></span> 2020 All rights reserved.
+                            </center>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</foot>
